@@ -1,3 +1,5 @@
+const { ethers } = require('hardhat');
+
 async function main() {
     const HelloWorld = await ethers.getContractFactory("HelloWorld");
 
